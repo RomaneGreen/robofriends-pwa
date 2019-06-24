@@ -1,8 +1,9 @@
 import React from 'react';
 import Card from './Card';
+import { shallow} from 'enzyme'
+
 
 const CardList = ({ robots }) => {
-  console.log('CardList');
   return (
     <div>
       {
