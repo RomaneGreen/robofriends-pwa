@@ -1,7 +1,8 @@
 import React from 'react';
+import { shallow} from 'enzyme'
 
 const SearchBox = ({ searchfield, searchChange }) => {
-  console.log('SearchBox');
+  //console.log('SearchBox');
   return (
     <div className='pa2'>
       <input
