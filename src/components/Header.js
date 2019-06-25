@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import CounterButton from './CounterButton';
+import { shallow} from 'enzyme'
+
 
 // In most cases, instead of writing shouldComponentUpdate()
 // by hand, you can inherit from React.PureComponent. It is
@@ -11,7 +13,7 @@ class Header extends Component {
     return false
   }
   render() {
-    console.log('header')
+  //  console.log('header')
     return (
       <div>
         <h1 className='f1'>RoboFriends</h1>
