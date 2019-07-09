@@ -16,17 +16,17 @@ it ('header snapshot',() => {
 
 
 
-it ('header snapshot results',() => {
+// it ('header snapshot results',() => {
      
-    const renderer = new ShallowRenderer();
-    renderer.render(<Header />);
-    const result = renderer.getRenderOutput();
+//     const renderer = new ShallowRenderer();
+//     renderer.render(<Header />);
+//     const result = renderer.getRenderOutput();
 
-    expect(result.type).toBe('div')
-    expect(result.props.children).toEqual(
+//     expect(result.type).toBe('div')
+//     expect(result.props.children).toEqual(
 
        
-     <div> <h1 className='f1'>RoboFriends</h1> <CounterButton />  </div> 
+//      <div> <h1 className='f1'>RoboFriends</h1> <CounterButton />  </div> 
   
-    );
-})
+//     );
+// })
