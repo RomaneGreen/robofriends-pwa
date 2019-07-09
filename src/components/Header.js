@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import CounterButton from './CounterButton';
-import { shallow} from 'enzyme'
 
 
 // In most cases, instead of writing shouldComponentUpdate()
