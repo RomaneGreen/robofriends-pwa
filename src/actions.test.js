@@ -30,7 +30,7 @@ it ('should create an action to search robots', () => {
 it ('handles requesting robots api', () => {
 
 
-    const store = mockStore()
+           const store = mockStore()
     store.dispatch(actions.requestRobots())
     const action =  store.getActions()  
 
