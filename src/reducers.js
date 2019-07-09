@@ -5,7 +5,7 @@ import {
   REQUEST_ROBOTS_FAILED
  } from './constants';
 
-const initialStateSearch = {
+ const initialStateSearch = {
   searchField: ''
 }
 

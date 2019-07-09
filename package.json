@@ -5,6 +5,8 @@
   "homepage": "https://aneagoie.github.io/robofriends-pwa",
   "dependencies": {
     "gh-pages": "^1.1.0",
+    "husky": "^3.0.0",
+    "pretty-quick": "^1.11.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-redux": "^5.0.7",
